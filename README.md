@@ -1,3 +1,5 @@
-#very early stages & in the works
-#cs club website
-#react + js
+# In Early Stages
+
+## Mt. SAC CS Club Website
+
+Coded in React + JavaScript
