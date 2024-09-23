@@ -17,11 +17,10 @@ function Navbar() {
             <li>events</li>
             <li>team</li>
             <li>projects</li>
-            <li>contact us</li>
+            <li>join us</li>
           </ul>
         </nav>
       </header>
-
     </>
   )
 }
