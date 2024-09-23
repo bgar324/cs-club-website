@@ -1,0 +1,46 @@
+.header{
+  display: flex;
+  /* top right bottom left */
+  margin: 0 50px 0 15px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.duck-logo{
+  text-decoration: none;
+  display: flex;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.duck-logo:hover{
+  color: orange;
+}
+
+.duck-logo h2{
+  margin-left: 10px;
+}
+
+img{
+  height: 65px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+li{
+  margin-left: 100px;
+  transition: color 0.3s ease;
+}
+
+li:hover{
+  color: orange;
+}
+
+.navbar-clickies{
+  text-decoration: none;
+  color: inherit;
+}
