@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx';
 import { Helmet } from 'react-helmet'; 
 
 const Home = () => {
@@ -8,8 +9,10 @@ const Home = () => {
       <Helmet>
         <title>Home | CS Club at Mt. SAC</title>
       </Helmet>
-
+        
       <Navbar />
+      
+      <Footer />
     </>
   )
 }

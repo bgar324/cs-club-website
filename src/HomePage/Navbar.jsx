@@ -15,7 +15,7 @@ function Navbar() {
           <ul>
             <li><Link to="/about" className="navbar-clickies">about</Link></li>
             <li>events</li>
-            <li>team</li>
+            <li><Link to="/team" className="navbar-clickies">team</Link></li>
             <li>projects</li>
             <li>join us</li>
           </ul>

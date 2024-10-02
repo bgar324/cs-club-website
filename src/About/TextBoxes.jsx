@@ -4,7 +4,7 @@ import './textboxes.css'
 const TextBoxes = ({heading, description, image}) => {
   return (
     <>
-    <div className="container">
+    <div className="tb-container">
       <div className="text-container">
         <div className="heading-text">
           <h2>{heading}</h2>
