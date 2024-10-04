@@ -1,4 +1,3 @@
-/* Remove unnecessary global styles */
 html, body {
   height: 100%;
   margin: 0;
@@ -12,6 +11,7 @@ html, body {
 
 .footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   background-color: #242424;
   color: white;
@@ -24,10 +24,42 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: green;
+}
+
+.sm-images{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.sm-images img{
+  height: auto;
+  width: 50px;
+  object-fit: contain;
+  transition: filter 0.4s ease;
+}
+
+.sm-images img:hover{
+  filter: invert(1);
+}
+
+.direct-links{
+  margin-left: 40px;
+}
+
+.f-duckimg{
+  display: flex;
+}
+
+.f-duckimg h2{
+  padding-left: 10px;
+  padding-top: 25px;
 }
 
 .footer-image {
-  width: 100px;
+  width: 70px;
   height: auto;
   margin: 10px 0;
   object-fit: contain;
@@ -40,12 +72,11 @@ html, body {
 }
 
 .footer-links li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .footer-links a {
   color: inherit;
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 
