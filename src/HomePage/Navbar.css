@@ -29,24 +29,24 @@
   transition: color 0.3s ease;
 }
 
-img{
+.nav-img{
   margin-top: 3px;
   height: 60px;
 }
 
-ul{
+.nav-ul{
   display: flex;
   list-style: none;
   font-weight: bold;
 }
 
-li{
+.nav-li{
   margin-left: 100px;
   transition: color 0.3s ease;
   color: #4C4E4E;
 }
 
-li:hover{
+.nav-li:hover{
   color: orange;
 }
 

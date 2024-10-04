@@ -24,3 +24,8 @@
 .image-container{
   margin-left: 30px;
 }
+
+.image-container img{
+  height: auto;
+  width: 150px;
+}
