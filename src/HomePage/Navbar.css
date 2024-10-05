@@ -1,69 +1,71 @@
-.header{
+.header {
   display: flex;
   /* top right bottom left */
-  padding: 5px 50px 0 20px;
+  padding: 5px 20px 0 20px; 
   justify-content: space-between;
   background-color: white;
   width: 100%;
   position: fixed;
   z-index: 999;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   border-bottom: 2px solid rgba(0, 0, 0, 0.04);
+  box-sizing: border-box; 
 }
 
-.duck-logo{
+.duck-logo {
   text-decoration: none;
   display: flex;
   color: inherit;
   transition: color 0.3s ease;
 }
 
-.duck-logo h2:hover{
+.duck-logo h2:hover {
   color: orange;
 }
 
-.duck-logo h2{
+.duck-logo h2 {
   margin-left: 10px;
   color: #4C4E4E;
+  font-size: 20px; 
   transition: color 0.3s ease;
 }
 
-.nav-img{
+.nav-img {
   margin-top: 3px;
-  height: 60px;
+  height: 50px; 
+  object-fit: contain; 
 }
 
-.nav-ul{
+.nav-ul {
   display: flex;
   list-style: none;
   font-weight: bold;
 }
 
-.nav-li{
-  margin-left: 100px;
+.nav-li {
+  margin-left: 60px; 
   transition: color 0.3s ease;
   color: #4C4E4E;
+  font-size: 15px; 
 }
 
-.nav-li:hover{
+.nav-li:hover {
   color: orange;
 }
 
-.navbar{
-  margin-top: 12px;
-  margin-right: 100px;
+.navbar {
+  margin-top: 5px; 
+  margin-right: 60px; 
 }
 
-.navbar-clickies{
+.navbar-clickies {
   text-decoration: none;
   color: inherit;
 }
 
-/*  */
-
-@media screen and (max-width: 800px){
-  .duck-logo h2{
+@media screen and (max-width: 800px) {
+  .duck-logo h2 {
     display: none;
   }
 }
