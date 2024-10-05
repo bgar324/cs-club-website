@@ -20,7 +20,7 @@ const Team = () => {
        </div>
       <p>Our officers make the amazing events and projects that we do possible. This page recognizes our entire team for their amazing work. </p>
       <Person 
-        imagesrc="public\static\images\rubber duck.png"
+        imagesrc="\static\images\rubber duck.png"
         name = "Benjamin Garcia"
         position = "Outreach Officer and Webmaster"
         year = "Class of 2027"

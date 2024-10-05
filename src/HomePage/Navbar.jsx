@@ -14,10 +14,10 @@ function Navbar() {
         <nav className="navbar">
           <ul className = "nav-ul">
             <li className = "nav-li"><Link to="/about" className="navbar-clickies">about</Link></li>
-            <li className = "nav-li">events</li>
+            <li className = "nav-li"><Link to="/events" className="navbar-clickies">events</Link></li>
             <li className = "nav-li"><Link to="/team" className="navbar-clickies">team</Link></li>
-            <li className = "nav-li">open source</li>
-            <li className = "nav-li">join us</li>
+            <li className = "nav-li"><Link to="/projects" className="navbar-clickies">open source</Link></li>
+            <li className = "nav-li"><Link to="/contact" className="navbar-clickies">join us</Link></li>
           </ul>
         </nav>
       </header>
