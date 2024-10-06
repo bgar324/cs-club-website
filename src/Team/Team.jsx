@@ -25,6 +25,30 @@ const Team = () => {
         position = "Outreach Officer and Webmaster"
         year = "Class of 2027"
       />
+      <Person 
+        imagesrc="\static\images\rubber duck.png"
+        name = "Benjamin Garcia"
+        position = "Outreach Officer and Webmaster"
+        year = "Class of 2027"
+      />
+      <Person 
+        imagesrc="\static\images\rubber duck.png"
+        name = "Benjamin Garcia"
+        position = "Outreach Officer and Webmaster"
+        year = "Class of 2027"
+      />
+      <Person 
+        imagesrc="\static\images\rubber duck.png"
+        name = "Benjamin Garcia"
+        position = "Outreach Officer and Webmaster"
+        year = "Class of 2027"
+      />
+      <Person 
+        imagesrc="\static\images\rubber duck.png"
+        name = "Benjamin Garcia"
+        position = "Outreach Officer and Webmaster"
+        year = "Class of 2027"
+      />
 
     </div>
     <Footer />

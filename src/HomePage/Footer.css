@@ -24,7 +24,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: green;
+  margin-right: 20px;
 }
 
 .sm-images{
@@ -54,20 +54,20 @@ html, body {
 }
 
 .direct-links{
-  margin-left: 40px;
-  background-color: aqua;
+  margin-left: 60px;
+  margin-top: -2px;
 }
 
 .f-duckimg{
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: blueviolet;
 }
 
 .f-duckimg p{
   margin: 0;
   padding-top: 10px;
+  font-weight: bold;
 }
 
 .footer-image {
@@ -84,14 +84,32 @@ html, body {
 
 .footer-links li {
   margin: 10px 0;
-  background-color:burlywood
 }
 
 .footer-links a {
   color: inherit;
   transition: color 0.3s ease;
+  text-decoration-color: orange;
 }
 
 .footer-links a:hover {
+  color: orange;
+}
+
+
+.f-master{
+  display:flex;
+  flex-direction: row;
+  /* top right bottom left*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.email-us a{
+  text-decoration-color: orange;
+  transition: color 0.3s ease;
+}
+
+.email-us a:hover{
   color: orange;
 }
