@@ -1,3 +1,11 @@
+.a-master-container{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
 .first-box{
   margin-top: 70px;
+  background-color: green;
 }
