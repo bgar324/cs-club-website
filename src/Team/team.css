@@ -14,20 +14,25 @@
   height: auto;
   width: 250px;
   object-fit: contain;
-  padding-bottom: 70px;
 }
 
 .t-header h2{
   font-size: 100px;
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 
-.t-team-container{
+.t-main-p{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.t-team-container {
   display: flex;
-  flex-direction: row;
-  background-color: grey;
-  justify-content: center;
-  max-width: 1000px;
+  flex-wrap: wrap;
+  max-width: 1100px;
   width: 100%;
   margin-bottom: 20px;
+  justify-content: center;
 }
+

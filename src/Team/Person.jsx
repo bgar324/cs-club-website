@@ -6,10 +6,12 @@ const Person = ({imagesrc, alt, name, position, year}) => {
     <>
 
       <div className="p-container">
-        <img src={imagesrc} alt={alt} className="pfp" />
-        <h2 className="name">{name}</h2>
-        <p className="position">{position}</p>
-        <p className="year">{year}</p>
+        <div className="p-details">
+          <img src={imagesrc} alt={alt} className="pfp" />
+          <h2 className="name">{name}</h2>
+          <p className="position">{position}</p>
+          <p className="year">{year}</p>
+        </div>
       </div>
 
     </>
