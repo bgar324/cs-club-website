@@ -8,6 +8,7 @@
 .t-header{
   display: flex;
   margin: auto;
+  margin-top: -40px;
 }
 
 .t-header img{

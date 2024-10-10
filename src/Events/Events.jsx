@@ -9,9 +9,14 @@ const Events = () => {
     <Helmet>
       <title>Events | CS Club at Mt. SAC</title>
     </Helmet>
+
+    <div className="e-header">
+      <h1></h1>
+    </div>
+
     <Navbar />
 
-    <Footer />
+      <Footer />
     </>
   )
 }
