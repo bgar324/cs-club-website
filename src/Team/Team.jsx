@@ -38,6 +38,12 @@ const Team = () => {
           position = "Outreach Officer"
           year = "Class of 2027"
         />
+        <Person 
+          imagesrc="\static\images\rubber duck.png"
+          name = "Benjamin Garcia"
+          position = "Outreach Officer"
+          year = "Class of 2027"
+        />
       </div>
 
     </div>

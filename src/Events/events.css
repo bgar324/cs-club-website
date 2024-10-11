@@ -1,0 +1,27 @@
+.e-header h2{
+  font-size: 100px;
+  text-align: center;
+  color: #363838;
+}
+
+.e-header-2 h2{
+  margin-top: -20px;
+  font-size: 100px;
+  text-align: center;
+  color: #363838;
+}
+
+.e-events {
+  max-width: 100%; 
+  margin: -40px 20px 30px 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.e-container {
+  flex: 0 1 calc(33.33% - 20px);
+  margin-bottom: 60px;
+  box-sizing: border-box; 
+}

@@ -2,6 +2,7 @@
 [] about
   [] get content & images
 [] events
+ [] make dates & locations tab
 [] team
   [] container positioning
   [] get image thing on the header
