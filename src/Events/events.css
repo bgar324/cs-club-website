@@ -1,27 +1,32 @@
-.e-header h2{
-  font-size: 100px;
+.e-header {
+  margin-top: 100px;
+}
+
+.e-header h2 {
+  font-size: 48px;
   text-align: center;
   color: #363838;
 }
 
-.e-header-2 h2{
-  margin-top: -20px;
-  font-size: 100px;
+.e-header-2 h2 {
+  font-size: 48px;
   text-align: center;
   color: #363838;
 }
 
 .e-events {
-  max-width: 100%; 
-  margin: -40px 20px 30px 20px;
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto 20px auto;
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 140px;
+  row-gap: 50px;
 }
 
 .e-container {
-  flex: 0 1 calc(33.33% - 20px);
-  margin-bottom: 60px;
-  box-sizing: border-box; 
+  width: 450px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
