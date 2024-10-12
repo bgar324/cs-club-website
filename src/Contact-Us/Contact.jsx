@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../HomePage/Navbar'
 import Footer from '../HomePage/Footer'
+import JoinUs from './JoinUs'
+import './contact.css'
 import { Helmet } from 'react-helmet'
 
 const Contact = () => {
@@ -10,7 +12,7 @@ const Contact = () => {
       <title>Join Us | CS Club at Mt. SAC</title>
     </Helmet>
     <Navbar />
-
+      <JoinUs />
     <Footer />
     </>
   )
