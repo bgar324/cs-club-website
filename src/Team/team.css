@@ -12,20 +12,19 @@
   color: #363838;
 }
 
-.t-header img{
+/* .t-header img{
   height: auto;
-  width: 250px;
+  width: 150px;
   object-fit: contain;
-}
+} */
 
 .t-header h2{
-  font-size: 100px;
+  font-size: 48px;
   padding-left: 10px;
-  margin-bottom: 10px;
 }
 
 .t-main-p{
-  margin-top: 10px;
+  margin-top: -30px;
   font-size: 18px;
 }
 

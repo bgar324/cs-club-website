@@ -15,7 +15,7 @@ const Team = () => {
     <Navbar />
     <div className="t-main-content">
        <div className="t-header">
-        <img src = "/static/images/rubber duck.png" />
+        {/* <img src = "/static/images/rubber duck.png" /> */}
         <h2>Our Team</h2>
        </div>
         <p className = "t-main-p">Our officers make the amazing events and projects that we do possible. This page recognizes our entire team for their amazing work. </p>
