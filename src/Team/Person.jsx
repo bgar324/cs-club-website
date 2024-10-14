@@ -4,7 +4,6 @@ import './Person.css'
 const Person = ({imagesrc, alt, name, position, year}) => {
   return (
     <>
-
       <div className="p-container">
         <div className="p-details">
           <img src={imagesrc} alt={alt} className="pfp" />

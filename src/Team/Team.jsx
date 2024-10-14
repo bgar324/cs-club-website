@@ -22,9 +22,33 @@ const Team = () => {
       <div className="t-team-container">
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Benjamin Garcia"
-          position = "Outreach Officer"
-          year = "Class of 2027"
+          name = "Bowen *lastName*"
+          position = "President"
+          year = "Class of ????"
+        />
+        <Person 
+          imagesrc="\static\images\rubber duck.png"
+          name = "Siwoo *lastName*"
+          position = "Vice-President"
+          year = "Class of ????"
+        />
+        <Person 
+          imagesrc="\static\images\rubber duck.png"
+          name = "Jessica *lastName*"
+          position = "Secretary"
+          year = "Class of ????"
+        />
+        <Person 
+          imagesrc="\static\images\rubber duck.png"
+          name = "Van *lastName*"
+          position = "Treasurer"
+          year = "Class of ????"
+        />
+        <Person 
+          imagesrc="\static\images\rubber duck.png"
+          name = "Josh *lastName*"
+          position = "ICC Representative"
+          year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
@@ -34,15 +58,21 @@ const Team = () => {
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Benjamin Garcia"
+          name = "Natalie *lastName*"
           position = "Outreach Officer"
-          year = "Class of 2027"
+          year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Benjamin Garcia"
-          position = "Outreach Officer"
-          year = "Class of 2027"
+          name = "Amanda *lastName*"
+          position = "Workshop Officer"
+          year = "Class of ????"
+        />
+        <Person 
+          imagesrc="\static\images\rubber duck.png"
+          name = "Chris *lastName*"
+          position = "Workshop Officer"
+          year = "Class of ????"
         />
       </div>
 
