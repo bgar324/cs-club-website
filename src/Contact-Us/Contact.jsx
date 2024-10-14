@@ -12,7 +12,12 @@ const Contact = () => {
       <title>Join Us | CS Club at Mt. SAC</title>
     </Helmet>
     <Navbar />
-      <JoinUs />
+
+    <JoinUs 
+     title = "asdfiosfad"
+     description= "asfasdasdf"
+    />
+
     <Footer />
     </>
   )
