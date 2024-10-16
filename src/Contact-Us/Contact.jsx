@@ -13,10 +13,14 @@ const Contact = () => {
     </Helmet>
     <Navbar />
 
-    <JoinUs 
-     title = "asdfiosfad"
-     description= "asfasdasdf"
-    />
+      <div className="join-us-page">
+        <h1 className="join-us-title">Join the Mt. SAC Computer Science Club</h1>
+      </div>
+
+      <JoinUs 
+      title = "How do I join?"
+      description= "asfasdasdf"
+      />
 
     <Footer />
     </>
