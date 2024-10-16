@@ -7,6 +7,7 @@ import Team from './Team/Team';
 import Projects from './Projects/Projects';
 import Events from './Events/Events';
 import Contact from './Contact-Us/Contact';
+import Partners from './Partners/Partners';
 import './index.css';
 
 createRoot(document.getElementById('root')).render(
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/team" element={<Team />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} /> 
+        <Route path="/partners" element ={<Partners />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

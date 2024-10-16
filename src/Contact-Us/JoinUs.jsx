@@ -3,9 +3,11 @@ import './JoinUs.css';
 
 function JoinUs({ title, description }) {
   return (
-    <div className="pill-container">
+    <div className="j-p-masterdiv">
       <h3 className="pill-title">{title}</h3>
-      <p className="pill-description">{description}</p>
+      <div className="pill-container">
+        <p dangerouslySetInnerHTML={{ __html: description }} />
+      </div>
     </div>
   );
 }

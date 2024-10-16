@@ -1,13 +1,36 @@
 .join-us-page {
-  padding: 20px;
+  padding-top: 20px;
   max-width: 900px;
   margin: 0 auto; 
+  text-align: center;
+  /* background: grey; */
+  border-radius: 50px;
 }
 
 .join-us-title {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: -10px;
   color: #333;
+}
+
+.j-comp-div{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.j-comp-div h1{
+  color: orange;
+  margin-bottom: -20px;
+}
+
+.benefits-section {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1500px; 
+  margin: 0 auto; 
+  padding: 20px; 
 }
