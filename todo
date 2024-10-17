@@ -1,57 +1,26 @@
-[] home
+todo 10/16
 [] about
-  [] get content & images
+  - get images and content
+  - maybe do the bottom section showing club advisors
+    - johansen
+    - atanasio
 [] events
- [] make dates & locations tab
+  - input new events 
+  - fix link routing
 [] team
-  [] container positioning
-  [] get image thing on the header
-[] projects
+ - get images and content
+  - specifically their pictures, last names, and graduation date
+[] open source
+  - TBA
+[] club partners
+  - TBA
 [] join us
-
-[] get mailing list done
-
-
-* about
- - text | image ; spam downward
- - images of professors associated with cs club,
- then picture of president
-
-* events
-https://sneakercon.com/events/
-upcoming events..
- - modules / pill containers
-
-past events
- - completed events, also in pill containers.
- - slanted text that said completed at date blah blah
-
-* join us
- - how to become member * pill container
- - benefits / opportunities of being in the club * pill container
-
- - the roles of the higher ups (outreach officers, etc..) * separate
- - President
- - Vice President
- - Secratary
- - Treasurer
- - ICC Rep
- - Outreach
- - Workshop
-
-
- - when meetings happen *
- - what goes on in the club: general computer science help, tutoring, transfer advising, hackathons, coding collaborations, and potential projects / open source opportunities
-
-
-
- - advertising the mailing list
- - testimonials * pill 
- 
- - FAQ
-  - do i need programming experience? 
-  - is the club open to all majors
-  - how much time commitment
-
-* todo 10/16
-- add club partners to footer bar
+  - put icons for the buttons
+  - get testimonial information
+[] navbar
+  - nothing
+[] footer
+  - put mailing list clickable
+[] ! 
+  - do mailing list
+  - figure out discord routing
