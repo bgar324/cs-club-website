@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './FaqAccordion.css'; // The CSS for the accordion
 
 const FaqAccordion = () => {
-  // Define the FAQ data
   const faqData = [
     {
       question: 'Do I need programming experience to join?',
@@ -26,13 +25,13 @@ const FaqAccordion = () => {
     },
   ];
 
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndexes, setOpenIndexes] = useState([]); 
 
   const toggleAccordion = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(null); 
+    if (openIndexes.includes(index)) {
+      setOpenIndexes(openIndexes.filter((i) => i !== index)); 
     } else {
-      setOpenIndex(index); 
+      setOpenIndexes([...openIndexes, index]);
     }
   };
 
@@ -43,14 +42,14 @@ const FaqAccordion = () => {
         {faqData.map((faq, index) => (
           <div key={index} className="accordion-item">
             <button
-              className={`accordion-button ${openIndex === index ? 'active' : ''}`}
+              className={`accordion-button ${openIndexes.includes(index) ? 'active' : ''}`}
               onClick={() => toggleAccordion(index)}
             >
               {faq.question}
             </button>
             <div
-              className={`accordion-content ${openIndex === index ? 'active' : ''}`}
-              style={{ maxHeight: openIndex === index ? '150px' : '0px' }}
+              className={`accordion-content ${openIndexes.includes(index) ? 'active' : ''}`}
+              style={{ maxHeight: openIndexes.includes(index) ? '150px' : '0px' }}
             >
               <p>{faq.answer}</p>
             </div>
