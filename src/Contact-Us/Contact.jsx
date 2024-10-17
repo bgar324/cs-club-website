@@ -3,7 +3,9 @@ import Navbar from '../HomePage/Navbar'
 import Footer from '../HomePage/Footer'
 import JoinUs from './JoinUs'
 import Benefits from './Benefits'
-import Roles from '../HomePage/Roles'
+import Roles from './Roles.jsx'
+import Person from '../Team/Person.jsx'
+import FaqAccordion from './FaqAccordion.jsx'
 import './contact.css'
 import { Helmet } from 'react-helmet'
 
@@ -25,7 +27,7 @@ const Contact = () => {
         description= "Membership is open all year round, and all you need to do is join our <a href='https://discord.gg/sWpjfHVuuT'>Discord server.</a> Once you're in, you'll have access to all our events, resources, and opportunities. It's that easy—no formal sign-up or application required. We can't wait to see you there!"
         />
 
-        <h1>Benefits</h1>
+        <h1>What's in it for me?</h1>
         <div className="benefits-section">
           <Benefits 
             title = "Connect"
@@ -35,7 +37,7 @@ const Contact = () => {
 
           <Benefits
           title = "Tutoring"
-          description = "with our alumni and volunteers to help you succeed in your coursework and projects."
+          description = "from our alumni and volunteers to help you succeed in your coursework and projects."
           />
 
           <Benefits
@@ -55,10 +57,34 @@ const Contact = () => {
 
         </div>
         <div className="leader-info">
-          <h1>You'll have the incredible opportunity to take on a leadership role</h1>
-          <p>While we are not currently taking applications, click on the different icons to learn more about what each position does!</p>
+          <h1>You'll have the incredible opportunity to take on a leadership role!</h1>
+          <p>While we are not currently taking applications, click on each tab to learn what each position does and what may be a good fit for you!</p>
         </div>
         <Roles />
+        <div className="test-masterdiv">
+            <h1>Testimonials</h1>
+          <div className="testimonials">
+            <Person 
+              imagesrc="\static\images\rubber duck.png"
+              name = "Bowen *lastName*"
+              position = "PUT TESTIMONIAL HERE"
+              year = "Class of ????"
+            />
+            <Person 
+              imagesrc="\static\images\rubber duck.png"
+              name = "Bowen *lastName*"
+              position = "PUT TESTIMONIAL HERE"
+              year = "Class of ????"
+            />
+            <Person 
+              imagesrc="\static\images\rubber duck.png"
+              name = "Bowen *lastName*"
+              position = "PUT TESTIMONIAL HERE"
+              year = "Class of ????"
+            />
+          </div>
+        </div>
+        <FaqAccordion />
       </div>
     <Footer />
     </>

@@ -38,3 +38,14 @@
 .leader-info p{
   padding-top: 20px;
 }
+
+.testimonials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.test-masterdiv h1{
+  margin-bottom: 10px;
+}
