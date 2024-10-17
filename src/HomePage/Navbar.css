@@ -40,6 +40,7 @@
 
 .nav-ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   font-weight: 600;
 }
@@ -75,6 +76,7 @@
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease, color 0.3s ease;
+  max-width: 150px;
 }
 
 .join-us-button:hover {
@@ -86,6 +88,12 @@
 @media screen and (max-width: 800px) {
   .duck-logo h2 {
     display: none;
+  }
+  .navbar-clickies{
+    font-size: 14px;
+  }
+  .join-us-button{
+    font-size: 14px;
   }
 }
 
