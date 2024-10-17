@@ -3,6 +3,7 @@ import Navbar from '../HomePage/Navbar'
 import Footer from '../HomePage/Footer'
 import JoinUs from './JoinUs'
 import Benefits from './Benefits'
+import Roles from '../HomePage/Roles'
 import './contact.css'
 import { Helmet } from 'react-helmet'
 
@@ -53,7 +54,11 @@ const Contact = () => {
           />
 
         </div>
-
+        <div className="leader-info">
+          <h1>You'll have the incredible opportunity to take on a leadership role</h1>
+          <p>While we are not currently taking applications, click on the different icons to learn more about what each position does!</p>
+        </div>
+        <Roles />
       </div>
     <Footer />
     </>

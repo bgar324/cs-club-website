@@ -57,12 +57,11 @@ const Footer = () => {
               <li><Link to="/events">Events</Link></li>
               <li><Link to="/about">Team</Link></li>
               <li><Link to="/projects">Open Source</Link></li>
-              <li><Link to="/contact">Join Us</Link></li>
+              <li><Link to="/partners">Club Partners</Link></li>
+              <li><Link to="/join-us">Join Us</Link></li>
             </ul>
         </div>
       </div>
-      
-
     </footer>
   )
 }
