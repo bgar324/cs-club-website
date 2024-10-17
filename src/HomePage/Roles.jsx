@@ -1,13 +1,12 @@
-import React from 'react'
-import { useState } from 'react'
-import './Roles.css'
+import React, { useState } from 'react';
+import './Roles.css';
 
-const data =  {
+const data = {
   president: {
     title: "The President is responsible for: ",
     responsibility: [
       "Leading club meetings",
-      "Overseeing club activites",
+      "Overseeing club activities",
       "Supporting current officers"
     ]
   },
@@ -18,10 +17,10 @@ const data =  {
       "Being a direct aid to the President"
     ]
   },
-  secratary: {
-    title: "The Secratary is responsible for: ",
+  secretary: {
+    title: "The Secretary is responsible for: ",
     responsibility: [
-      "Recordkeeping all activites of the club",
+      "Recordkeeping all activities of the club",
       "In charge of all club correspondence"
     ]
   },
@@ -34,26 +33,37 @@ const data =  {
   iccRep: {
     title: "The ICC Representative is responsible for: ",
     responsibility: [
-      "Keeping records of all ICC-related activites and policies",
-      "Deals with any Club Relation or Associate student-related activites"
+      "Keeping records of all ICC-related activities and policies",
+      "Deals with any Club Relation or Associate student-related activities"
     ]
   },
   outreach: {
     title: "The Outreach Officer is responsible for: ",
     responsibility: [
-      "Club communcations through social media platforms",
+      "Club communications through social media platforms",
       "Producing relevant marketing materials that help promote the club"
     ]
   },
   workshop: {
-    title: "The President is responsible for: ",
+    title: "The Workshop Officer is responsible for: ",
     responsibility: [
       "Planning, coordinating, and scheduling workshops on relevant topics",
-      "Work with instructors, guest speakers, and advanced club members to leader workshops",
+      "Work with instructors, guest speakers, and advanced club members to lead workshops",
       "Advertise and promote workshops"
     ]
   }
-}
+};
+
+// Map of role keys to display names
+const roleNames = {
+  president: "President",
+  vicePresident: "Vice President",
+  secretary: "Secretary",
+  treasurer: "Treasurer",
+  iccRep: "ICC Representative",
+  outreach: "Outreach Officer",
+  workshop: "Workshop Officer"
+};
 
 const Roles = () => {
   const [activeSection, setActiveSection] = useState('president'); // Default to 'president'
@@ -67,7 +77,7 @@ const Roles = () => {
             className={`role-button ${activeSection === roleKey ? 'active' : ''}`}
             onClick={() => setActiveSection(roleKey)}
           >
-            {roleKey.charAt(0).toUpperCase() + roleKey.slice(1)}
+            {roleNames[roleKey]} {/* Display name from roleNames */}
           </button>
         ))}
       </div>
@@ -84,4 +94,4 @@ const Roles = () => {
   );
 };
 
-export default Roles
+export default Roles;
