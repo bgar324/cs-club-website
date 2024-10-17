@@ -6,6 +6,7 @@ import Benefits from './Benefits'
 import Roles from './Roles.jsx'
 import Person from '../Team/Person.jsx'
 import FaqAccordion from './FaqAccordion.jsx'
+import MailingList from './MailingList.jsx'
 import './contact.css'
 import { Helmet } from 'react-helmet'
 
@@ -86,6 +87,7 @@ const Contact = () => {
         </div>
         <FaqAccordion />
       </div>
+      <MailingList />
     <Footer />
     </>
   )

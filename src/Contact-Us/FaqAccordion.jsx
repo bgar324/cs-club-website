@@ -23,6 +23,10 @@ const FaqAccordion = () => {
       question: 'What is the time commitment?',
       answer: 'There is no mandatory time commitment. You can participate as much or as little as your schedule allows, though active involvement is encouraged.',
     },
+    {
+      question: 'What if I have more questions?',
+      answer: 'If you have more questions, reach out to us at: mtsac.csclub@gmail.com, our club President: Bowen, or our club advisors: Jonathan Johannsen and Dominick Atanasio.'
+    }
   ];
 
   const [openIndexes, setOpenIndexes] = useState([]); 

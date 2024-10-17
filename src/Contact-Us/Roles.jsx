@@ -54,7 +54,6 @@ const data = {
   }
 };
 
-// Map of role keys to display names
 const roleNames = {
   president: "President",
   vicePresident: "Vice President",
@@ -66,7 +65,7 @@ const roleNames = {
 };
 
 const Roles = () => {
-  const [activeSection, setActiveSection] = useState('president'); // Default to 'president'
+  const [activeSection, setActiveSection] = useState('president');
 
   return (
     <div className="roles-container">
@@ -77,7 +76,7 @@ const Roles = () => {
             className={`role-button ${activeSection === roleKey ? 'active' : ''}`}
             onClick={() => setActiveSection(roleKey)}
           >
-            {roleNames[roleKey]} {/* Display name from roleNames */}
+            {roleNames[roleKey]}
           </button>
         ))}
       </div>
