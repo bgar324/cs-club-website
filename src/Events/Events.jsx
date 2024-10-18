@@ -32,7 +32,7 @@ const Events = () => {
             alt = "CS Movie Night Flyer"
             eventName = "Movie Night"
             infoLink = "/night"
-            registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
+            // registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
           />
 
           <EventContainer 
@@ -88,7 +88,7 @@ const Events = () => {
             infoLink = "https://docs.google.com/document/d/1kkGk-kT-zIjRwQsTZ-rccgbeG8NL0GBxXljpwBN3qy0/edit?tab=t.0#heading=h.o8i4jkrbfnc5"
             registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
           />
-        </div> */} */}
+        </div> */}
 
       </div>
 
