@@ -8,6 +8,10 @@ import Projects from './Projects/Projects';
 import Events from './Events/Events';
 import Contact from './Contact-Us/Contact';
 import Partners from './Partners/Partners';
+import FoodBank from './MoreInfo/FoodBank';
+import Mesa from './MoreInfo/Mesa';
+import Stem from './MoreInfo/Stem';
+import MovieNight from './MoreInfo/MovieNight';
 import './index.css';
 
 createRoot(document.getElementById('root')).render(
@@ -21,6 +25,12 @@ createRoot(document.getElementById('root')).render(
         <Route path="/projects" element={<Projects />} />
         <Route path="/join-us" element={<Contact />} /> 
         <Route path="/partners" element ={<Partners />} />
+
+        {/* MoreInfo Routes */}
+        <Route path ="/foodbank" element={<FoodBank />} />
+        <Route path ="/mesa" element={<Mesa />} />
+        <Route path ="/stem" element={<Stem />} />
+        <Route path ="/night" element={<MovieNight />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

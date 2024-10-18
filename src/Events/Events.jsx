@@ -23,32 +23,32 @@ const Events = () => {
             imagesrc = "\static\images\cs_food_bank_flyer.png"
             alt = "CS Food Bank Flyer"
             eventName = "Food Bank"
-            infoLink = "https://docs.google.com/document/d/1kkGk-kT-zIjRwQsTZ-rccgbeG8NL0GBxXljpwBN3qy0/edit?tab=t.0#heading=h.o8i4jkrbfnc5"
+            infoLink = "/foodbank"
             registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
           />
 
           <EventContainer 
             imagesrc = "\static\images\cs movie flyer.png"
-            alt = "CS Food Bank Flyer"
+            alt = "CS Movie Night Flyer"
             eventName = "Movie Night"
-            infoLink = "https://docs.google.com/document/d/1kkGk-kT-zIjRwQsTZ-rccgbeG8NL0GBxXljpwBN3qy0/edit?tab=t.0#heading=h.o8i4jkrbfnc5"
+            infoLink = "/night"
             registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
           />
 
           <EventContainer 
-            imagesrc = "\static\images\cs_food_bank_flyer.png"
-            alt = "CS Food Bank Flyer"
-            eventName = "Food Bank"
-            infoLink = "https://docs.google.com/document/d/1kkGk-kT-zIjRwQsTZ-rccgbeG8NL0GBxXljpwBN3qy0/edit?tab=t.0#heading=h.o8i4jkrbfnc5"
-            registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
+            imagesrc = "\static\images\Women_of_Color_in_STEM.png"
+            alt = "Women of Color in Stem Flyer"
+            eventName = "Women of Color in STEM"
+            infoLink = "/stem"
+            // registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
           />
 
           <EventContainer 
-            imagesrc = "\static\images\cs_food_bank_flyer.png"
-            alt = "CS Food Bank Flyer"
-            eventName = "Food Bank"
-            infoLink = "https://docs.google.com/document/d/1kkGk-kT-zIjRwQsTZ-rccgbeG8NL0GBxXljpwBN3qy0/edit?tab=t.0#heading=h.o8i4jkrbfnc5"
-            registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
+            imagesrc = "\static\images\Nov_2024_MESA_Guest_Speaker_Jim_Herold.jpg"
+            alt = "MESA Guest Speaker"
+            eventName = "Jim Herold Guest Speaker"
+            infoLink = "/mesa"
+            registerLink = "https://forms.office.com/pages/responsepage.aspx?id=8ktNzJ4KQEKu3qfR1oj5NfaMcBznXHtFpUoFBwrvxcZURDZDNkdOSFlWSzRSVFVJQTFNTzY3TEJaSy4u&origin=QRCode&route=shorturl"
           />
         </div>
 

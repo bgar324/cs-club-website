@@ -1,0 +1,76 @@
+.foodbank-boiler-master{
+  display: flex;
+  flex-direction: column;
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  /* background-color: aliceblue; */
+}
+
+.foodbank-boiler-master h1{
+  font-size: 48px;
+  text-align: center;
+  color: #363838; 
+}
+
+.foodbank-boiler-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: green; */
+}
+
+.foodbank-boiler-container img{
+  width: 650px;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.foodbank-boiler-info{
+  background-color: #f0f0f0;
+  padding: 20px;
+  max-width: 800px;
+  height: auto;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.foodbank-buttons{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.jelq{
+  text-align: center;
+}
+
+.jelq a{
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.jelq a:hover{
+  color: orange;
+}
+
+.boilerLink {
+  padding: 10px 20px;
+  background-color: #FFDBBB;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boilerLink:hover{
+  background-color: orange;
+  color: black;
+}
