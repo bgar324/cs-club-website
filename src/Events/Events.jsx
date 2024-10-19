@@ -28,9 +28,9 @@ const Events = () => {
           />
 
           <EventContainer 
-            imagesrc = "\static\images\cs movie flyer.png"
+            imagesrc = "\static\images\cscclubgameflyerv2.png"
             alt = "CS Movie Night Flyer"
-            eventName = "Movie Night"
+            eventName = "Game Night"
             infoLink = "/night"
             // registerLink = "https://docs.google.com/forms/d/e/1FAIpQLSdlxrm0XRRa4iipwRsZ5by0ySOy65Rgiccym5OW-ndXoI-H8w/viewform"
           />
@@ -48,6 +48,14 @@ const Events = () => {
             alt = "MESA Guest Speaker"
             eventName = "Jim Herold Guest Speaker"
             infoLink = "/mesa"
+            registerLink = "https://forms.office.com/pages/responsepage.aspx?id=8ktNzJ4KQEKu3qfR1oj5NfaMcBznXHtFpUoFBwrvxcZURDZDNkdOSFlWSzRSVFVJQTFNTzY3TEJaSy4u&origin=QRCode&route=shorturl"
+          />
+
+          <EventContainer 
+            imagesrc = "\static\images\cs club stem flyer.png"
+            alt = "STEMForOthers Event"
+            eventName = "STEMForOthers Project Event"
+            infoLink = "/stem4"
             registerLink = "https://forms.office.com/pages/responsepage.aspx?id=8ktNzJ4KQEKu3qfR1oj5NfaMcBznXHtFpUoFBwrvxcZURDZDNkdOSFlWSzRSVFVJQTFNTzY3TEJaSy4u&origin=QRCode&route=shorturl"
           />
         </div>

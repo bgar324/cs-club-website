@@ -12,6 +12,7 @@ import FoodBank from './MoreInfo/FoodBank';
 import Mesa from './MoreInfo/Mesa';
 import Stem from './MoreInfo/Stem';
 import MovieNight from './MoreInfo/MovieNight';
+import Stem4 from './MoreInfo/Stem4';
 import './index.css';
 
 createRoot(document.getElementById('root')).render(
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
         <Route path ="/mesa" element={<Mesa />} />
         <Route path ="/stem" element={<Stem />} />
         <Route path ="/night" element={<MovieNight />} />
+        <Route path ="/stem4" element={<Stem4/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
