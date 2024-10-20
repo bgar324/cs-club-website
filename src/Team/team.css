@@ -35,3 +35,8 @@
   justify-content: center;
 }
 
+.t-main-p{
+  max-width: 1200px;
+  text-align: center;
+  color: #363838;
+}

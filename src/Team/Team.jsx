@@ -18,7 +18,7 @@ const Team = () => {
         {/* <img src = "/static/images/rubber duck.png" /> */}
         <h2>Our Team</h2>
        </div>
-        <p className = "t-main-p">Our officers make the amazing events and projects that we do possible. This page recognizes our entire team for their amazing work. </p>
+        <p className = "t-main-p">Our officers are the heart of our events and projects, making everything we do possible. This page recognizes their hard work—feel free to reach out to them anytime!</p>
       <div className="t-team-container">
         <Person 
           imagesrc="\static\images\rubber duck.png"
@@ -57,9 +57,9 @@ const Team = () => {
           year = "Class of 2027"
         />
         <Person 
-          imagesrc="\static\images\rubber duck.png"
+          imagesrc="\static\images\natalie.png"
           name = "Natalie *lastName*"
-          position = "Outreach Officer"
+          position = "Workshop Officer"
           year = "Class of ????"
         />
         <Person 
@@ -69,7 +69,7 @@ const Team = () => {
           year = "Class of ????"
         />
         <Person 
-          imagesrc="\static\images\rubber duck.png"
+          imagesrc="\static\images\chris.png"
           name = "Chris *lastName*"
           position = "Workshop Officer"
           year = "Class of ????"
