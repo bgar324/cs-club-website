@@ -21,7 +21,7 @@ const Stem4Boiler = () => {
           <li>Translation Group: Translate the existing Introduction to Java Course in C++ and/or Python</li>
         </ul>
         <h2>How to sign up: </h2>
-        <p>Fill out the registration form BEFORE Friday, October 25th 11:59PM and browse the event details below:</p>
+        <p>Registration not needed!</p>
         <div className="foodbank-buttons">
           <a href="https://docs.google.com/document/d/18WHupwJ1JHqdeEQvlnV4LLE38CSnTe-CgTpLuJXlTbU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="boilerLink">Details</a>
           {/* <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdhuEFRf3Ehs0i22V9M2FdBmUY8fnplnRJ_Es9nZmdnRIoEKw/viewform?usp=send_form" target="_blank" rel="noopener noreferrer" className="boilerLink">Register</a> */}
