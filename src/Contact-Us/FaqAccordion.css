@@ -20,6 +20,7 @@
 
 .accordion-item {
   margin-bottom: 10px;
+  
 }
 
 .accordion-button {
@@ -51,6 +52,7 @@
   overflow: hidden;
   transition: max-height 0.3s ease;
   padding-left: 20px;
+  
 }
 
 .accordion-content p {
