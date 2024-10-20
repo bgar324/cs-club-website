@@ -58,6 +58,13 @@ const Events = () => {
             infoLink = "/stem4"
             registerLink = "https://forms.office.com/pages/responsepage.aspx?id=8ktNzJ4KQEKu3qfR1oj5NfaMcBznXHtFpUoFBwrvxcZURDZDNkdOSFlWSzRSVFVJQTFNTzY3TEJaSy4u&origin=QRCode&route=shorturl"
           />
+          <EventContainer 
+            imagesrc = "\static\images\smacs.png"
+            alt = "Hackathon Prep"
+            eventName = "Hackathon Prep (SMACS)"
+            infoLink = "/smacs"
+            registerLink = "https://smacs.vercel.app/"
+          />
         </div>
 {/* 
         <div className="e-header-2">

@@ -13,6 +13,7 @@ import Mesa from './MoreInfo/Mesa';
 import Stem from './MoreInfo/Stem';
 import MovieNight from './MoreInfo/MovieNight';
 import Stem4 from './MoreInfo/Stem4';
+import SMACS from './MoreInfo/SMACS';
 import './index.css';
 
 createRoot(document.getElementById('root')).render(
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')).render(
         <Route path ="/stem" element={<Stem />} />
         <Route path ="/night" element={<MovieNight />} />
         <Route path ="/stem4" element={<Stem4/>} />
+        <Route path ="/smacs" element={<SMACS />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
