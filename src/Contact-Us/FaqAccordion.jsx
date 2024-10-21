@@ -9,7 +9,7 @@ const FaqAccordion = () => {
     },
     {
       question: 'How often does the club meet?',
-      answer: 'We meet weekly on Thursdays at 4 PM, but we also have events and workshops throughout the month.',
+      answer: 'I forgot',
     },
     {
       question: 'What are the benefits of becoming a member?',
