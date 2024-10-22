@@ -56,7 +56,7 @@ const Events = () => {
             alt = "STEMForOthers Event"
             eventName = "STEMForOthers Project Event"
             infoLink = "/stem4"
-            registerLink = "https://forms.office.com/pages/responsepage.aspx?id=8ktNzJ4KQEKu3qfR1oj5NfaMcBznXHtFpUoFBwrvxcZURDZDNkdOSFlWSzRSVFVJQTFNTzY3TEJaSy4u&origin=QRCode&route=shorturl"
+            registerLink = "https://docs.google.com/forms/d/1co43OjyqbYITjJ-jFDf5GFe_C-NSr_Cf3WtjOpc9oa0/edit"
           />
           <EventContainer 
             imagesrc = "\static\images\smacs.png"

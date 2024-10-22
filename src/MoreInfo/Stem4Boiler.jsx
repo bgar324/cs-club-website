@@ -21,10 +21,10 @@ const Stem4Boiler = () => {
           <li>Translation Group: Translate the existing Introduction to Java Course in C++ and/or Python</li>
         </ul>
         <h2>How to sign up: </h2>
-        <p>Registration not needed!</p>
+        <p>Register via the Google Form below. This opportunity is expected to run through Spring 2025, and we do have limited availability. So don't hesitate to register soon!</p>
         <div className="foodbank-buttons">
-          <a href="https://docs.google.com/document/d/18WHupwJ1JHqdeEQvlnV4LLE38CSnTe-CgTpLuJXlTbU/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="boilerLink">Details</a>
-          {/* <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdhuEFRf3Ehs0i22V9M2FdBmUY8fnplnRJ_Es9nZmdnRIoEKw/viewform?usp=send_form" target="_blank" rel="noopener noreferrer" className="boilerLink">Register</a> */}
+          <a href="https://docs.google.com/document/d/195NhKNvVbfgFuf5gY-G6w0cKrsjylnN_nY5o9WefhHI/edit?tab=t.0#heading=h.hxb2k0wc22om" target="_blank" rel="noopener noreferrer" className="boilerLink">Details</a>
+          <a href="https://docs.google.com/forms/d/1co43OjyqbYITjJ-jFDf5GFe_C-NSr_Cf3WtjOpc9oa0/edit" target="_blank" rel="noopener noreferrer" className="boilerLink">Register</a>
           {/* <a href="https://www.cervistech.com/acts/console.php?console_id=0338&console_type=event_list&res_code=aMUkbD&ht=1" target="_blank" rel="noopener noreferrer" className="boilerLink">Profile Creation</a> */}
         </div>
         <h2 className="jelq">For any questions and concerns, please contact us via email: <br />           
