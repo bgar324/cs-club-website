@@ -40,7 +40,7 @@ const Team = () => {
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Van *Lai Sy"
+          name = "Van Lai Sy"
           position = "Treasurer"
           year = "Class of ????"
         />
