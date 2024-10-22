@@ -22,31 +22,31 @@ const Team = () => {
       <div className="t-team-container">
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Bowen *lastName*"
+          name = "Bowen Wu"
           position = "President"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Siwoo *lastName*"
+          name = "Siwoo Chung"
           position = "Vice-President"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Jessica *lastName*"
+          name = "Jessica Chen"
           position = "Secretary"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Van *lastName*"
+          name = "Van *Lai Sy"
           position = "Treasurer"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Josh *lastName*"
+          name = "Joshua-Jaye Chan"
           position = "ICC Representative"
           year = "Class of ????"
         />
@@ -58,19 +58,19 @@ const Team = () => {
         />
         <Person 
           imagesrc="\static\images\natalie.png"
-          name = "Natalie *lastName*"
+          name = "Natalie Guillen"
           position = "Workshop Officer"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Amanda *lastName*"
+          name = "Amanda Chang"
           position = "Workshop Officer"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\chris.png"
-          name = "Chris *lastName*"
+          name = "Chris Theung"
           position = "Workshop Officer"
           year = "Class of ????"
         />
