@@ -7,7 +7,7 @@ const Projects = () => {
   return(
     <>
     <Helmet>
-      <title>Open Source | CS Club at Mt. SAC</title>
+      <title>Projects | CS Club at Mt. SAC</title>
     </Helmet>
     <Navbar />
 
