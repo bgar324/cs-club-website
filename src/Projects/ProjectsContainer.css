@@ -1,9 +1,10 @@
 .pc-master {
-  width: 525px; 
+  width: 100%;
+  max-width: 525px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
-  max-width: 100%;
+  margin: 16px auto;
 }
 
 .pc-link {
@@ -13,28 +14,29 @@
 }
 
 .pc-header {
-  height: 60px; 
-  background-color: #f5f5f5; 
+  height: 60px;
+  background-color: #f5f5f5;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000;
 }
 
 .pc-header h3 {
   margin: 0;
-  font-size: 19px; 
+  font-size: 19px;
+  text-align: center;
+  color: #363838;
 }
 
-.pc-image {
-  height: 300px; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.pc-content {
+  position: relative;
+  overflow: hidden;
 }
 
-.pc-image img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+.pc-iframe {
+  width: 100%;
+  height: 315px; /* Adjust if needed to ensure good viewing dimensions */
+  border: none;
+  display: block;
 }
