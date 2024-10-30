@@ -15,6 +15,9 @@ const ProjectsContainer = ({ projectName, projectLink }) => {
             className="pc-iframe"
             allowFullScreen
           ></iframe>
+          <div className="pc-overlay">
+            Open in new tab
+          </div>
         </div>
       </a>
     </div>
