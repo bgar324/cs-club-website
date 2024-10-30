@@ -14,6 +14,7 @@ const Projects = () => {
     <Navbar />
     <div className="p-header">
       <h2>Past Projects</h2>
+      <p>Check out the previous projects and workshops made by our past officers!</p>
     </div>
     <div className="p-mastercontainer">
       <ProjectsContainer
