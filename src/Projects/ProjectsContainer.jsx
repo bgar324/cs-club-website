@@ -5,7 +5,7 @@ const ProjectsContainer = ({ projectName, projectImageSrc, projectLink }) => {
   return (
     <>
     <div className="pc-master">
-      <a href={projectLink} targe="t_blank" rel="noopener noreferrer" className="pc-link">
+      <a href={projectLink} targe="_blank" rel="noopener noreferrer" className="pc-link">
         <div className="pc-header">
           <h3>{projectName}</h3>
         </div>

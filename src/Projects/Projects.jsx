@@ -44,17 +44,7 @@ const Projects = () => {
         projectName = "adsfs"
         projectImageSrc = "\static\images\cscclubgameflyerv2.png"
         projectLink = "youtube.com"
-      />      
-            <ProjectsContainer
-        projectName = "adsfs"
-        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
-        projectLink = "youtube.com"
-      />      
-            <ProjectsContainer
-        projectName = "adsfs"
-        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
-        projectLink = "youtube.com"
-      />      
+      /> 
     </div>
 
     <Footer />
