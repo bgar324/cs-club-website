@@ -15,11 +15,47 @@ const Projects = () => {
     <div className="p-header">
       <h2>Past Projects</h2>
     </div>
-    <ProjectsContainer
+    <div className="p-mastercontainer">
+      <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />
+      <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />
+      <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />            <ProjectsContainer
       projectName = "adsfs"
-      projectImageSrc = "\static\images\chris.png"
+      projectImageSrc = "\static\images\cscclubgameflyerv2.png"
       projectLink = "youtube.com"
-    />
+    />      
+          <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />      
+            <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />      
+            <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />      
+            <ProjectsContainer
+        projectName = "adsfs"
+        projectImageSrc = "\static\images\cscclubgameflyerv2.png"
+        projectLink = "youtube.com"
+      />      
+    </div>
 
     <Footer />
     </>
