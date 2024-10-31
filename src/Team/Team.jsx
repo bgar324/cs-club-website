@@ -66,7 +66,7 @@ const Team = () => {
           imagesrc="\static\images\rubber duck.png"
           name = "Amanda Chang"
           position = "Workshop Officer"
-          year = "Class of ????"
+          year = "Class of 2028"
         />
         <Person 
           imagesrc="\static\images\chris.png"
