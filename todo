@@ -1,28 +1,25 @@
-todo 10/16
-[] about
-  - get images and content
-  - maybe do the bottom section showing club advisors
-    - johansen
-    - atanasio
-[] events
-  - input new events 
-  - fix link routing
-[] team
- - get images and content
-  - specifically their pictures, last names, and graduation date
-------------------------
-[] open source         |
-  - TBA                |
-[] club partners       | 
-  - TBA                |
-------------------------
-[] join us
-  - put icons for the buttons
-  - get testimonial information
-[] navbar
-  - nothing
-[] footer
-  - put mailing list clickable
-[] ! 
-  - do mailing list
-  - figure out discord routing
+todo 10/31
+- about
+* fix content, put advisors on bottom
+
+- events
+* work on events past section
+
+- events
+* get a group photo and get grad dates
+
+-projects
+* think mostly done? maybe get a pic / make the site load faster, but thats hard
+
+- join us
+* fix content
+* get icons
+
+- landing page
+* figure out what to do 
+
+- navbar
+* done
+
+- footer
+* add mailing list
