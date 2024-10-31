@@ -44,6 +44,7 @@
 .roles-details h2 {
   font-size: 24px;
   margin-bottom: 15px;
+  color: #363838;
 }
 
 .roles-details ul {
@@ -55,4 +56,5 @@
   font-size: 18px;
   margin-bottom: 10px;
   text-align: left;
+  color: #363838;
 }

@@ -3,18 +3,22 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  max-width: 500px;
+  max-width: 1000px;
   /* top right bottom left */
   width: 100%;
   margin: 15px auto;
 }
 
 .text-container{
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  max-width: 450px;
 }
 
 .heading-text{
-  margin-bottom: -20px;
+  margin-bottom: -30px;
+  color: #4C4E4E
 }
 
 .heading-text h2{
@@ -22,10 +26,15 @@
 }
 
 .image-container{
-  margin-left: 30px;
+  margin-left: 100px;
+  /* background-color: red; */
 }
 
 .image-container img{
   height: auto;
   width: 150px;
+}
+
+.description-text{
+  color: #444;
 }

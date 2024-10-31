@@ -8,38 +8,3 @@
 /* .first-box{
   background-color: green;
 } */
-
-/* 
-.code
-main proc
-  mov eax, 5
-  mov ebx, 10
-  mov ecx, 15
-
-  mov edx, eax
-  add edx, ebx
-  add edx, ecx
-  push edx
-  mov edx, 0
-
-  mov edx, eax
-  neg edx
-  sub edx, ebx
-  sub edx, ecx
-  push edx
-  mov edx, 0
-
-  mov edx, eax
-  sub edx, ebx
-  add edx, ecx
-  push edx
-  mov edx, 0
-
-  pop eax
-  pop ebx
-  pop ecx
-
-  invoke exitprocess, 0
-  main endp
-
-*/

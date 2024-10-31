@@ -18,35 +18,35 @@ const Team = () => {
         {/* <img src = "/static/images/rubber duck.png" /> */}
         <h2>Our Team</h2>
        </div>
-        <p className = "t-main-p">Our officers make the amazing events and projects that we do possible. This page recognizes our entire team for their amazing work. </p>
+        <p className = "t-main-p">Our officers are the heart of our events and projects, making everything we do possible. This page recognizes their hard work—feel free to reach out to them anytime!</p>
       <div className="t-team-container">
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Bowen *lastName*"
+          name = "Bowen Wu"
           position = "President"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Siwoo *lastName*"
+          name = "Siwoo Chung"
           position = "Vice-President"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Jessica *lastName*"
+          name = "Jessica Chen"
           position = "Secretary"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Van *lastName*"
+          name = "Van Lai Sy"
           position = "Treasurer"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Josh *lastName*"
+          name = "Joshua-Jaye Chan"
           position = "ICC Representative"
           year = "Class of ????"
         />
@@ -57,20 +57,20 @@ const Team = () => {
           year = "Class of 2027"
         />
         <Person 
-          imagesrc="\static\images\rubber duck.png"
-          name = "Natalie *lastName*"
-          position = "Outreach Officer"
-          year = "Class of ????"
-        />
-        <Person 
-          imagesrc="\static\images\rubber duck.png"
-          name = "Amanda *lastName*"
+          imagesrc="\static\images\natalie.png"
+          name = "Natalie Guillen"
           position = "Workshop Officer"
           year = "Class of ????"
         />
         <Person 
           imagesrc="\static\images\rubber duck.png"
-          name = "Chris *lastName*"
+          name = "Amanda Chang"
+          position = "Workshop Officer"
+          year = "Class of ????"
+        />
+        <Person 
+          imagesrc="\static\images\chris.png"
+          name = "Chris Theung"
           position = "Workshop Officer"
           year = "Class of ????"
         />

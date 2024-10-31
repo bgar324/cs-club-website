@@ -8,8 +8,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>Home | CS Club at Mt. SAC</title>
-      </Helmet>
-        
+      </Helmet>        
       <Navbar />
       
       <Footer />
