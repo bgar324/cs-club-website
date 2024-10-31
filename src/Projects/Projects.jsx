@@ -61,14 +61,6 @@ const Projects = () => {
         projectName="Introduction to Web Dev"
         projectLink="https://docs.google.com/presentation/d/1JWuLIgnXQyr_Ez8E3F6-4owPj42K8vZ3UtO_nMp2J3A/edit?usp=sharing"
       />
-      {/* <ProjectsContainer
-        projectName="Mt. Hacks 2019"
-        projectLink="https://docs.google.com/presentation/d/16CZ6Xkcd68mVwhtWgw9XtgK--Ar2U6PZ1aphV6WcviA/edit#slide=id.p"
-      />
-      <ProjectsContainer
-        projectName="Mt. Hacks 2019"
-        projectLink="https://docs.google.com/presentation/d/16CZ6Xkcd68mVwhtWgw9XtgK--Ar2U6PZ1aphV6WcviA/edit#slide=id.p"
-      /> */}
 
     </div>
     <Footer />
