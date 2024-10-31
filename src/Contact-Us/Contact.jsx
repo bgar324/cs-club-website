@@ -19,7 +19,7 @@ const Contact = () => {
     <Navbar />
 
       <div className="join-us-page">
-        <h1 className="join-us-title">We're so excited that you want to join our amazing community!</h1>
+        <h2 className="join-us-title">We're so excited that you want to join our amazing community!</h2>
       </div>
       
       <div className="j-comp-div">

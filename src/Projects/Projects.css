@@ -1,0 +1,21 @@
+.p-header h2{
+  font-size: 48px;
+  text-align: center;
+  color: #363838;
+}
+
+.p-header p{
+  margin-top: -30px;
+  text-align: center;
+  color: #363838;
+  font-size: 18px;
+}
+
+.p-mastercontainer{
+  /* top right bottom left */
+  padding: 0 50px 50px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+}
