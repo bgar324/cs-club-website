@@ -17,7 +17,7 @@ const ProjectsContainer = ({ projectName, projectLink }) => {
           ></iframe>
           <div className="pc-overlay">
             <div className="pc-button">
-              Open in new tab
+              View slides
             </div>
           </div>
         </div>
