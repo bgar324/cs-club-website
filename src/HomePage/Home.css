@@ -3,7 +3,7 @@
   width: 100vw; 
   height: 120vh; 
   overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 70%); 
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 70%);
 }
 
 .hero-header img.background-image {
@@ -14,7 +14,85 @@
 
 .hero-header img.logo-image {
   position: absolute; 
-  top: 60px; 
-  left: 120px; 
+  top: 80px; 
+  left: 600px; 
   width: 800px; 
+}
+
+.home-master{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.what-is{
+  /* top right bottom left */
+  margin: -350px 100px 0 100px;
+  /* background-color: cyan; */
+  color: #4C4E4E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.what-is-text{
+  width: 700px;
+  align-items: center;
+  text-align: center;
+}
+
+.what-is-text h2{
+  font-size: 35px;
+}
+
+.what-is-text p{
+  margin-top: -20px;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.hero-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #ffa500;
+  border-radius: 12px;
+  background-color: transparent;
+  color: orange;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  max-width: 150px;
+  margin-top: -20px;
+}
+
+.hero-button:hover{
+  background-color: orange;
+  color: white;
+}
+
+.what-is-image{
+  height: auto;
+  width: 600px;
+  object-fit: contain;
+  border-radius: 40px;
+  border: solid;
+  margin-top: 20px;
+}
+
+.hero-header-2 {
+  position: relative;
+  width: 100vw; 
+  height: auto; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.banner2 {
+  width: auto;
+  height: 900px; 
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  object-fit: cover;
 }
