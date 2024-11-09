@@ -14,8 +14,8 @@ const Home = () => {
       <Navbar />
       <div className="home-master">
         <div className="hero-header">
-          <img src="public/static/images/Mt SAC Buildings_43.jpg" alt="Building 43" className="background-image"/>
-          <img src="public/static/images/MtSAC (1).png" alt="Duck Logo" className="logo-image"/>
+          <img src="/static/images/Mt SAC Buildings_43.jpg" alt="Building 43" className="background-image"/>
+          <img src="/static/images/MtSAC (1).png" alt="Duck Logo" className="logo-image"/>
         </div>
 
         <div className="what-is">
@@ -26,12 +26,12 @@ const Home = () => {
            <Link to ="/about" className="hero-button">about</Link>
            {/* ADD ICONS HYPERLINKS HERE */}
           </div>
-          <img src = "public\static\images\IMG_4719.png" className= "what-is-image" />
+          <img src = "\static\images\IMG_4719.png" className= "what-is-image" />
         </div>
       </div>
 
       <div className="hero-header-2">
-        <img src ="public/static/images/banner2.png" className ="banner2"/>
+        <img src ="/static/images/banner2.png" className ="banner2"/>
       </div>
 
       <div className="etc-text">
