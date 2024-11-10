@@ -1,3 +1,7 @@
+.holy-moly{
+  background-color: #FFF7F0;
+}
+
 .hero-header {
   position: relative;
   width: 100vw; 
@@ -28,7 +32,6 @@
 .what-is{
   /* top right bottom left */
   margin: -350px 100px 0 100px;
-  /* background-color: cyan; */
   color: #4C4E4E;
   display: flex;
   flex-direction: row;
@@ -57,7 +60,7 @@
   border: 2px solid #ffa500;
   border-radius: 12px;
   background-color: transparent;
-  color: orange;
+  color: #4C4E4E;
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -82,17 +85,80 @@
 .hero-header-2 {
   position: relative;
   width: 100vw; 
-  height: auto; 
+  height: 900px; 
   overflow: hidden;
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
 }
 
-.banner2 {
-  width: auto;
-  height: 900px; 
-  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
-  object-fit: cover;
+.hero-header-2 img.banner2 {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;
 }
+
+.etc{
+  margin: 0 100px 0 100px;
+  color: #4C4E4E;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.etc h2{
+  font-size: 35px;
+}
+
+.etc p{
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.team-joinus{
+  /* top right bottom left */
+  margin: 0px 100px 50px 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.tj-text{
+  width: 700px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.events-projects{
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.special-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tj{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.tj1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  margin-top: -20px;
+}
+
