@@ -51,13 +51,18 @@ const Home = () => {
             <img src = "\static\images\IMG_4859.jpg" className= "what-is-image special" />
           </div>
 
-          <div className="events-projects">
+          <div className="team-joinus">
             <div className="tj-text">
-              <h2>Explore our events and projects!</h2>
-              <p>Discover our past workshops and events, and check out our ongoing projects. Stay tuned for updates on upcoming events and get inspired by what we've accomplished so far!</p>
-              <div className="special-buttons">
-                <Link to ="/events" className="hero-button">events</Link>
-                <Link to ="/projects" className="hero-button">projects</Link>
+              <h2>Check out our events and projects!</h2>
+              <div className="tj">
+                <div className="tj1">
+                  <p>Curious about our technical projects and past work? Explore our projects page to catch up on all our workshop and meeting slides!</p>
+                  <Link to ="/projects" className="hero-button">projects</Link>
+                </div>
+                <div className="tj1">
+                  <p>Want to see what we're up to? Check out the events page to see upcoming & past events!</p>
+                  <Link to ="/events" className="hero-button">events</Link>
+                </div>
               </div>
             </div>
             <img src = "\static\images\IMG_2030.jpg" className= "what-is-image special" />
