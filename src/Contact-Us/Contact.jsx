@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Navbar from '../HomePage/Navbar'
 import Footer from '../HomePage/Footer'
 import JoinUs from './JoinUs'
@@ -11,6 +11,9 @@ import './contact.css'
 import { Helmet } from 'react-helmet'
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return(
     <>
     <Helmet>

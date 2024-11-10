@@ -87,7 +87,7 @@
   width: 100vw; 
   height: 900px; 
   overflow: hidden;
-  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,12 +142,6 @@
   justify-content: space-evenly;
 }
 
-.special-buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 .tj{
   display: flex;
   justify-content: space-between;
@@ -162,3 +156,11 @@
   margin-top: -20px;
 }
 
+
+.special{
+  margin-left: 100px;
+}
+
+.specialR{
+  margin-right: 100px;
+}

@@ -52,6 +52,7 @@ const Home = () => {
           </div>
 
           <div className="team-joinus">
+          <img src = "\static\images\IMG_2030.jpg" className= "what-is-image specialR" />
             <div className="tj-text">
               <h2>Check out our events and projects!</h2>
               <div className="tj">
@@ -65,7 +66,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <img src = "\static\images\IMG_2030.jpg" className= "what-is-image special" />
+
           </div>
 
         </div>

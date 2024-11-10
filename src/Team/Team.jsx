@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './team.css'
 import Navbar from '../HomePage/Navbar'
 import Person from './Person'
@@ -6,6 +6,9 @@ import Footer from '../HomePage/Footer'
 import { Helmet } from 'react-helmet'
 
 const Team = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Helmet>

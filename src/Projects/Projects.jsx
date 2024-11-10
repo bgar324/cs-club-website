@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Navbar from '../HomePage/Navbar'
 import Footer from '../HomePage/Footer'
 import ProjectsContainer from './ProjectsContainer'
@@ -6,6 +6,10 @@ import './Projects.css'
 import { Helmet } from 'react-helmet'
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return(
     <>
     <Helmet>
